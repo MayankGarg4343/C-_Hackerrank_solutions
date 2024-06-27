@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+  // here we have declared the three variables as named below.
+    int a,b,c;
+    cin>>a>>b>>c;  // we have taken the input from user.
+
+    cout<<a+b+c;   // result have been printed out.
+    return 0;
+}
