@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string a, b;
+    getline(cin, a);
+    getline(cin, b);
+    cout << a.size() << " " << b.size() << endl;
+
+    cout << a + b << endl;
+
+    string swappedA = b[0] + a.substr(1); // First character from b and rest from a
+    string swappedB = a[0] + b.substr(1); // First character from a and rest from b
+
+    cout << swappedA << " " << swappedB << endl;
+    return 0;
+}
