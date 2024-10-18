@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+int greatest(int a, int b){
+    if(a>b){
+        return a;
+    } else{
+        return b;
+    }
+}
+int main() {
+    int a, b, c, d;
+    cin>>a>>b>>c>>d;
+    int ans=0;
+    ans = greatest(a,b);
+    ans = greatest(ans, c);
+    ans = greatest(ans, d);
+    cout<<ans;
+    return 0;
+}
