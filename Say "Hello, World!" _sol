@@ -1,9 +1,7 @@
 #include <bits/stdc++.h>    // this will include all of the header files.
 using namespace std;
 
-int main() {                // this is the main function from where code is starting.
-
+int main() {         
     cout<<"Hello, World!";
     return 0;
-
 }
